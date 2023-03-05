@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema da Agua</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="Img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/tela_morte.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    </audio>
+    <div id="root" class="game-board">
+        <spam class="score"></spam>
+        <img src="img/caminhao.png" class="personagem">
+        <img src="img/lixo.png" class="bug">
+    </div>
+
+    <!--Musica 8bit do jogo-->
+    <audio controls preload="auto" class="contmusica" autoplay="autoplay" loop>
+        <source src="audio/musica.mpeg" type="audio/mpeg">
+    </audio>
+    <!--Musica 8bit do jogo-->
+
+</body>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content bg-dark bg-shadow">
+            <div class="modal-header">
+                <h5 class="modal-title a2" id="exampleModalCenterTitle">oi</h5>
+                <p class="text-light a">Tente mais uma vez :)</p>
+            </div>
+            <div class="modal-body">
+                <center>
+                    <div class="justify-content-center">
+                        <a class="btn btn-pause" href="index.html" role="button"><i class="fa-solid fa-arrow-rotate-left" id="b"></i></a>
+                        <a class="btn btn-pause" href="#" role="button"><i class="fa-sharp fa-solid fa-house" id="b"></i></a>
+                        <a class="btn btn-pause" href="https://github.com/MarcoTech1234" role="button"><i class="fa-brands fa-github" id="b"></i></a>
+                    </div>
+                </center>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <a class="btn btn-pause" href="#" role="button">Informações do curso</a>
+                <a class="btn btn-pause" href="#" role="button">Informações da escola</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/8833acc5cb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        const audio = document.querySelector('audio')
+
+        const musica = setInterval(() => {
+            audio.currentTime = 0
+            audio.play()
+            clearInterval(musica)
+        }, 10)
+    </script>
+
+
+</html>

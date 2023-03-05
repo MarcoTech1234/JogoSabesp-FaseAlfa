@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(-45deg, #f37084, #6ad5ff, #3c94cb, 80%, #70d0f3);
+    animation: Rio 10s ease;
+    background-size: 400% 400%;
+}
+
+@keyframes Rio {
+    0% {
+        background-position: 0% 20%;
+    }
+    50% {
+        background-position: 50% 40%;
+    }
+    100% {
+        background-position: 100% 40%;
+    }
+}
+
+.btn-play {
+    background: rgb(6, 93, 173);
+    border: 2px solid rgb(6, 93, 173);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    border-radius: 25px;
+    transition: all 0.3s;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#btn-play {
+    font-family: 'Gamer', sans-serif;
+}
+
+.btn-play:hover {
+    box-shadow: 0 0 15px rgb(6, 93, 173);
+    transition: all 0.3s;
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+}
+
+.bg-shadow {
+    border: 5px solid rgb(59, 5, 109);
+    box-shadow: 0 0 15px rgb(59, 5, 109);
+}
+
+.btn-pause {
+    background: rgb(6, 93, 173);
+    border: 2px solid rgb(6, 93, 173);
+    font-size: 10.5px;
+    color: aliceblue;
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    transition: all 0.3s;
+}
+
+.a {
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    align-items: center;
+}
+
+.a2 {
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    align-items: center;
+    color: rgb(179, 7, 7);
+}
+
+.btn-pause:hover {
+    box-shadow: 0 0 15px rgb(4, 56, 104);
+    background: rgb(4, 56, 104);
+    border: 2px solid rgb(4, 56, 104);
+    color: aliceblue;
+    transition: all 0.3s;
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+}
+
+.btn-volta {
+    background: rgb(5, 118, 224);
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.btn-volta:hover {
+    background: rgb(5, 76, 141);
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+    text-shadow: rgb(255, 255, 255) 0 0 10px;
+}
+
+#b {
+    font-size: 18px;
+}
